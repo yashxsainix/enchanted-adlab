@@ -204,6 +204,7 @@ st.markdown(f"""
     <div style="text-align:center;margin-top:16px;">
         <a href="linkedin.com/in/yash-saini-analyst" style="color:#00BFFF;text-decoration:none;margin:0 12px;">🔗 LinkedIn</a>
         <a href="https://github.com/yashxsainix" style="color:#FFD700;text-decoration:none;margin:0 12px;">💻 GitHub</a>
+        <a href="https://yashxsainix.github.io/" target="_blank" style="color:#ccc;text-decoration:none;margin:0 12px;">🌐 Portfolio</a>
         <a href="mailto:yashsaini30668@gmail.com" style="color:#ccc;text-decoration:none;margin:0 12px;">📧 Email</a>
     </div>
 </div>
