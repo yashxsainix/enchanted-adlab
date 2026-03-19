@@ -62,8 +62,31 @@ with tab_upload:
         cta = st.text_input("Call-to-Action text", "Watch Now")
         if st.button("🔮 Predict Engagement Score"):
             score = np.random.uniform(62, 95)
-            st.session_state["last_score"] = score
-            _show_gauge(score)
+            fig = go.Figure(go.Indicator(
+                mode="gauge+number",
+                value=score,
+                title={"text": "Engagement Score", "font": {"size": 16, "color": "#ccc"}},
+                gauge={
+                    "axis": {"range": [0, 100], "tickcolor": "#555"},
+                    "bar": {"color": GOLD},
+                    "bgcolor": "rgba(0,0,0,0)",
+                    "bordercolor": "rgba(255,255,255,0.1)",
+                    "steps": [
+                        {"range": [0, 50], "color": "rgba(255,82,82,0.12)"},
+                        {"range": [50, 75], "color": "rgba(255,215,0,0.08)"},
+                        {"range": [75, 100], "color": "rgba(0,230,118,0.10)"},
+                    ],
+                },
+            ))
+            fig.update_layout(height=280, paper_bgcolor="rgba(0,0,0,0)", font=dict(color="#E8E8E8"))
+            st.plotly_chart(fig, use_container_width=True)
+            if score > 80:
+                st.success(f"🔥 Score: {score:.1f}/100 — This creative is a winner!")
+                st.balloons()
+            elif score > 65:
+                st.info(f"👍 Score: {score:.1f}/100 — Solid performance, worth testing.")
+            else:
+                st.warning(f"📉 Score: {score:.1f}/100 — Consider revising this creative.")
     else:
         st.info("Upload an image to get started, or browse the gallery →")
 
