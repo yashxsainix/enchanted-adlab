@@ -1,0 +1,12 @@
+# requirements.txt — Enchanted AdLab
+# Pin major.minor, allow patch updates for security fixes
+
+streamlit>=1.42.0,<1.43.0
+plotly>=6.0.0,<7.0.0
+pandas>=2.2.0,<3.0.0
+numpy>=1.26.0,<2.1.0
+scipy>=1.14.0,<2.0.0
+statsmodels>=0.14.0,<1.0.0
+scikit-learn>=1.5.0,<2.0.0
+duckdb>=1.1.0,<2.0.0
+pillow>=10.0.0,<11.0.0
