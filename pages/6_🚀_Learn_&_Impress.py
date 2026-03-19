@@ -177,7 +177,7 @@ st.markdown(f"""
     <div style="text-align:center;">
         <div style="font-size:3rem;margin-bottom:8px;">🧑‍💻</div>
         <div style="font-family:'Playfair Display',serif;font-size:1.5rem;
-             color:#FFD700;font-weight:700;">Yashpal</div>
+             color:#FFD700;font-weight:700;">Yashpal Saini</div>
         <div style="color:#999;font-size:0.88rem;margin-top:4px;">
             Data Analyst · Experimentation Enthusiast · Builder
         </div>
@@ -202,9 +202,9 @@ st.markdown(f"""
         <span class="badge badge-blue">Plotly</span>
     </div>
     <div style="text-align:center;margin-top:16px;">
-        <a href="https://linkedin.com/in/yashpal" style="color:#00BFFF;text-decoration:none;margin:0 12px;">🔗 LinkedIn</a>
-        <a href="https://github.com/yashpal" style="color:#FFD700;text-decoration:none;margin:0 12px;">💻 GitHub</a>
-        <a href="mailto:yashpal@email.com" style="color:#ccc;text-decoration:none;margin:0 12px;">📧 Email</a>
+        <a href="linkedin.com/in/yash-saini-analyst" style="color:#00BFFF;text-decoration:none;margin:0 12px;">🔗 LinkedIn</a>
+        <a href="https://github.com/yashxsainix" style="color:#FFD700;text-decoration:none;margin:0 12px;">💻 GitHub</a>
+        <a href="mailto:yashsaini30668@gmail.com" style="color:#ccc;text-decoration:none;margin:0 12px;">📧 Email</a>
     </div>
 </div>
 """, unsafe_allow_html=True)
