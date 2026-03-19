@@ -1,7 +1,7 @@
 # app.py — Enchanted AdLab: MagicStream A/B Experiment Simulator
 # Main entry point with sidebar navigation, session state, and global theming.
 """
-Built by Yashpal to crush the Disney Associate Data Analyst role.
+Built by Yashpal Saini to crush the Disney Associate Data Analyst role.
 Run: streamlit run app.py
 """
 
@@ -56,7 +56,7 @@ with st.sidebar:
     st.markdown("""
     <div style="background:rgba(255,215,0,0.06);border:1px solid rgba(255,215,0,0.15);
          border-radius:10px;padding:10px 14px;margin:8px 0;">
-        <div style="color:#FFD700;font-size:0.78rem;font-weight:600;">🔥 Built by Yashpal</div>
+        <div style="color:#FFD700;font-size:0.78rem;font-weight:600;">🔥 Built by Yashpal Saini</div>
         <div style="color:#999;font-size:0.72rem;margin-top:2px;">
             Targeting: Disney Associate Data Analyst
         </div>
@@ -90,7 +90,7 @@ st.markdown("""
 <div style="background:linear-gradient(135deg,rgba(255,215,0,0.08),rgba(0,191,255,0.06));
      border:1px solid rgba(255,215,0,0.12);border-radius:14px;padding:20px 28px;margin-bottom:24px;">
     <div style="color:#FFD700;font-size:1.1rem;font-weight:700;">
-        🔥 Built by Yashpal to crush Disney Associate Data Analyst role
+        🔥 Built by Yashpal Saini to crush Disney Associate Data Analyst role
     </div>
     <div style="color:#bbb;font-size:0.88rem;margin-top:6px;">
         An end-to-end A/B testing platform — from ad creative design to executive storytelling.<br>
