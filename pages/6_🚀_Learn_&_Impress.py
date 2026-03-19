@@ -181,18 +181,20 @@ st.markdown(f"""
         <div style="color:#999;font-size:0.88rem;margin-top:4px;">
             Data Analyst · Experimentation Enthusiast · Builder
         </div>
+    <div style="margin-top:16px;color:#bbb;font-size:0.88rem;line-height:1.7;">
+        Most analysts stop at a dashboard. I wanted to go further. This entire app
+        started because I was curious about how streaming companies actually run
+        experiments at scale, so I built one from scratch to figure it out.
+        <br><br>
+        Along the way, I wired up real statistical engines (frequentist and Bayesian),
+        added a multi-armed bandit arena because I thought it was cool, plugged in
+        DuckDB so the SQL actually runs, and built a revenue calculator that makes
+        the business case for you.
+        <br><br>
+        I like making data work feel less like a black box and more like something
+        anyone on the team can click through and understand. If you're looking for
+        someone who ships full data products and not just slide decks, let's talk.
     </div>
-    <div style="margin-top:16px;color:#bbb;font-size:0.88rem;line-height:1.6;">
-        I don't just analyse data — I build tools that make data analysis accessible,
-        beautiful, and actionable. This project demonstrates my ability to:
-    </div>
-    <ul style="color:#bbb;font-size:0.85rem;margin-top:10px;line-height:1.8;">
-        <li>Design and execute A/B experiments end-to-end</li>
-        <li>Apply both frequentist and Bayesian statistics rigorously</li>
-        <li>Write production-grade Python with clean architecture</li>
-        <li>Build interactive data products from scratch</li>
-        <li>Translate technical results into executive narratives</li>
-    </ul>
     <div style="text-align:center;margin-top:20px;">
         <span class="badge badge-gold">Python</span>
         <span class="badge badge-blue">Statistics</span>
