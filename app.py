@@ -58,7 +58,6 @@ with st.sidebar:
          border-radius:10px;padding:10px 14px;margin:8px 0;">
         <div style="color:#FFD700;font-size:0.78rem;font-weight:600;">🔥 Built by Yashpal Saini</div>
         <div style="color:#999;font-size:0.72rem;margin-top:2px;">
-            Targeting: Disney Associate Data Analyst
         </div>
     </div>
     """, unsafe_allow_html=True)
