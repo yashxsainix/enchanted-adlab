@@ -89,7 +89,7 @@ st.markdown("""
 <div style="background:linear-gradient(135deg,rgba(255,215,0,0.08),rgba(0,191,255,0.06));
      border:1px solid rgba(255,215,0,0.12);border-radius:14px;padding:20px 28px;margin-bottom:24px;">
     <div style="color:#FFD700;font-size:1.1rem;font-weight:700;">
-        🔥 Built by Yashpal Saini to crush Disney Associate Data Analyst role
+        🔥 Built by Yashpal Saini
     </div>
     <div style="color:#bbb;font-size:0.88rem;margin-top:6px;">
         An end-to-end A/B testing platform — from ad creative design to executive storytelling.<br>
