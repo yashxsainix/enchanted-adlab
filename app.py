@@ -1,7 +1,7 @@
 # app.py — Enchanted AdLab: MagicStream A/B Experiment Simulator
 # Main entry point with sidebar navigation, session state, and global theming.
 """
-Built by Yashpal Saini to crush the Disney Associate Data Analyst role.
+Built by Yashpal Saini
 Run: streamlit run app.py
 """
 
